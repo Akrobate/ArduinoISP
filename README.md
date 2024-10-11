@@ -18,6 +18,17 @@ Here is an example of how to wire an ATMega328p programmer. Once wired you'll be
 ![Teensy2 Arduino ISP](https://raw.githubusercontent.com/Akrobate/ArduinoISP/master/assets/isp-electronic-schema.png)
 
 
+## Pins on Teensy for the ISP protocol
+
+* MISO - 23
+* MOSI - 22
+* SCLK - 21
+* RESET - 20
+
+Teensy 2++ pin out [reference 1](assets/pinout_teensy_20pp.jpg) [reference 2](assets/teensy2pp_card4a_rev2_web.pdf)
+
+
+
 ## Customizations
 
 You can add some LED to visualize the activity of the programmer:
